@@ -1,10 +1,8 @@
 public void setup()
 {
-  Thingy bob = new Thingy();
-  Thingy mary = new Thingy();
-  bob.setX(30);
-  bob.setY(30);
-  mary.setX(70);
-  mary.setY(70);
-  System.out.println("Distance between bob and mary is " + dist(bob.getX(),bob.getY(),mary.getX(),mary.getY()));
+  Doodad one = new Doodad();
+  Doodad two = new Doodad();
+  one.setNum(3.14159);
+  two.setNum(2.71828);
+  System.out.println("Sum is " + (one.getNum() + two.getNum()));
 }
